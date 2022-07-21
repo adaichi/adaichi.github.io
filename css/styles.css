@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+a{
+    text-decoration: none;
+}
+
+#menu>ul{
+    list-style: none;
+    padding: 0px;
+}
+
+#menu>ul>li{
+    display: inline;
+    margin: 0px 16px 0px 0px;
+    border: 1px solid #666666;
+    border-radius: 4px;
+    background:linear-gradient(red,#ffff);
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+
+
+}
+
+main{
+    margin: 0px 10px;
+    flex: 2;
+}
+
+aside{
+    margin: 0px 10px;
+    flex: 1;
+}
+
+h1{
+    border: 2px dashed black;
+    border-radius: 17px;
+}
+
+
+
+
+
+#contain{
+    margin: 0px 18px;
+}
